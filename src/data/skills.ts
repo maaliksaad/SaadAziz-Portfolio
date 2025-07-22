@@ -1,6 +1,5 @@
 import {
   SiExpress,
-  SiPrisma,
   SiNextdotjs,
   SiMongoose,
   SiMysql,
@@ -19,11 +18,9 @@ import CsssSvg from "@/public/icons/css.svg";
 import ShadCn from "@/public/icons/shadcn.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 
