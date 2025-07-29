@@ -9,6 +9,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: ["RemixJS", "NestJS", "MySQL", "TailwindCSS"],
     youtubeUrl: "https://www.youtube.com/watch?v=dhZ-nAk4e90",
   },
+
   {
     index: 1,
     title: "Tech Tonic",
@@ -18,13 +19,20 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
+    title: "Engineering and Architectural Diagram Management System",
+    href: "/projects",
+    tags: ["NextJS", "NestJS", "TailwindCSS"],
+    youtubeUrl: "https://www.youtube.com/watch?v=ckgp1IVc_I8",
+  },
+  {
+    index: 3,
     title: "Algorithm Visualizer",
     href: "/projects",
     tags: ["NextJS", "TailwindCSS"],
     youtubeUrl: "https://www.youtube.com/watch?v=VH12Dk0J2zQ",
   },
   {
-    index: 3,
+    index: 4,
     title: "React Meals",
     href: "/projects",
     tags: ["ReactJS", "ExpressJs", "MongoDB", "TailwindCSS"],
@@ -40,12 +48,20 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Built a web app in Remix and NestJs to convert videos into interactive 3D renders using open source NeRF frameworks and cloud services",
     sourceCodeHref: "https://github.com/maaliksaad/MyFyp",
   },
+
   {
     name: "Tech Tonic",
     youtubeUrl: "https://www.youtube.com/watch?v=nA58Rqfv9iY", // Replaced with YouTube URL
     description:
       "Developed Techtonic, a multi-user blogging platform with dashboards and CRUD operations, utilizing Next.js for the frontend and NestJS for the backend",
     sourceCodeHref: "https://github.com/maaliksaad/TechTonic-frontend",
+  },
+  {
+    name: "Engineering and Architectural Diagram Management System",
+    youtubeUrl: "https://www.youtube.com/watch?v=ckgp1IVc_I8", // Replaced with YouTube URL
+    description:
+      " Developed a collaborative diagram management system for engineers and architects with real-time annotations, color coding, and multi-user interaction support in Next.js and Nest.js .",
+    sourceCodeHref: "https://github.com/maaliksaad/Planscan",
   },
   {
     name: "Algorithm Visualizer",
