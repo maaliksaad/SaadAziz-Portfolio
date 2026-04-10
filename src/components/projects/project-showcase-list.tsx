@@ -10,6 +10,7 @@ export type ProjectShowcaseListItem = {
   href: string;
   tags: string[];
   youtubeUrl: string;
+  liveWebsiteHref?: string;
 };
 
 export interface ProjectShowcaseListProps {
